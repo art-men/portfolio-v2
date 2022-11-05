@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Arthur Mendes Rodrigues</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+          <div class="offcanvas-header">
+           <!-- <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>-->
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Habilities</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <!--<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>-->
+            </ul>
+            <!--<form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>-->
+          </div>
+        </div>
+      </div>
+    </nav>
+      <!--HOME-->
+      <div class="content">
+        <div class="img">
+          <img src="assets/img/Imagem_Perfil.jpg" class="img-thumbnail" alt="Perfil Pessoal">
+        </div>
+        <div class="espaco"></div>
+        <div class="content-text">
+          <h1>I'm <span>Arthur Mendes</span></h1>
+          <h3 id="subtitulo">Web Developer</h3>
+        </div>
+      </div>
+
+      <!--SOBRE MIM -->
+      <section id="about" class="sec">
+        <div class="text-about">
+          <p class="texto">Olá, me chamo Arthur, tenho 17 anos e sou apaixonado pela tecnologia. <br>
+            Sou formado pela Etec no curso Desenvolvimento de Sistemas,<br> e atualmente busco uma vaga de Programador Júnior. <br>
+            Minha formação profissional ainda está se iniciando, <br> mas pretendo demonstrar minhas habilidades e enfrentar novos desafios. <br>
+            Sou proativo, persistente, determinado e procuro aprimorar meus conhecimentos, <br>
+            contribuindo assim para o meu desenvolvimento profissional e, <br>
+            consequentemente, para o crescimento da empresa. <br>
+            Gostaria de uma oportunidade, pois ainda não tenho experiência.
+          </p>
+        </div>
+      </section>
+
+      <!--PROJETOS-->
+      <section id="projects" class="sec1">
+        <div class="img-container">
+          <div class="img-pro">
+            <a href="https://arthur-api-viacep.netlify.app/">
+              <img src="./assets/img/API-ViaCep.jpeg" class="img-thumbnail" alt="">
+            </a>
+          <p>Consumindo API ViaCep - Usando JSON</p>
+          </div>
+          <div class="img-pro">  
+            <a href="https://techpack.netlify.app/">
+              <img src="./assets/img/tech-pack.jpeg" class="img-thumbnail" alt="">
+            </a>
+            <p>Site teste para treinar CSS/HTML/JS</p>  
+          </div>
+          <div class="img-pro">
+            <a href="https://arthur-mendes.netlify.app/">
+              <img src="./assets/img/portfolio1.jpeg" class="img-thumbnail" alt="">
+            </a>
+            <p>Primeira versão do portfolio Usando HTML/CSS/JS</p>
+          </div>
+          
+        </div>
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js">
+      </script>
+</body>
+</html>

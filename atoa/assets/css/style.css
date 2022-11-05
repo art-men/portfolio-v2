@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }  
+
+body{
+    background-color: aliceblue;
+    font-family: Poppins;
+}
+
+.link-nav{
+    text-decoration: none;
+    color: white;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    /* background-image: url("../img/fundo.jpg"); */
+    /* border: 2px solid black; */
+}
+
+.espaco{
+    width: 10%;
+    height: 10%;
+}
+
+/* .content-text{
+    /* border: 2px solid black; */
+/*} */
+
+.content-text span{
+    color: blueviolet;
+}
+
+.content-text h3{
+    color: rgb(65, 9, 117);
+}
+
+/* ABOUT ME */
+.sec{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-about{
+    width: 50%;
+    height: 50%;
+}
+
+.texto{
+    width: 100%;
+    height: 100vh;
+    text-align: center; 
+    color: white;
+    font-size: 100%;
+    font-family: 'Acme', sans-serif;
+}
+
+/* PROJECTS */
+.sec1{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-pro{
+    margin-right: 2%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .img-container{
+    margin-top: 80%;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: table-column;
+    
+    }
+    
+  }
